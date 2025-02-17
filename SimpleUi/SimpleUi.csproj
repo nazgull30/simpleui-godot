@@ -12,7 +12,7 @@
 		<OutputPath>./nupkg</OutputPath>
 
 		<Title>SimpleUi</Title>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Description>SimpleUi description.</Description>
 		<Copyright>© 2024 nazgul</Copyright>
 		<Authors>nazgul</Authors>
@@ -38,7 +38,7 @@
 
 	<ItemGroup>
 		<!-- Dependencies go here. -->
-		<PackageReference Include="VContainer" Version="1.0.1" />
+		<PackageReference Include="VContainer" Version="1.0.2" />
 		<PackageReference Include="IsExternalInit" Version="1.0.3">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -47,6 +47,6 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
-		<PackageReference Include="GodotSharp" Version="4.3" />
+		<PackageReference Include="GodotSharp" Version="4.3.0" />
 	</ItemGroup>
 </Project>
